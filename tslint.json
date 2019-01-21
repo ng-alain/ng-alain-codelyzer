@@ -1,0 +1,21 @@
+{
+  "extends": [
+    "tslint:recommended"
+  ],
+  "rulesDirectory": [
+    "dist"
+  ],
+  "rules": {
+    "use-path-mapping": [],
+    "quotemark": false,
+    "member-access": false,
+    "member-ordering": false,
+    "object-literal-sort-keys": false,
+    "max-classes-per-file": false,
+    "interface-name": false,
+    "arrow-parens": false
+  },
+  "linterOptions": {
+    "exclude": ["./test/helper", "./test/test.ts"]
+  }
+}
