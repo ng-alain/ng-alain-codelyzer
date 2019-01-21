@@ -1,4 +1,4 @@
-## ng-alain-codelyzer
+## ng-alain-codelyzer [![Build Status](https://img.shields.io/travis/ng-alain/ng-alain-codelyzer/master.svg?style=flat-square)](https://travis-ci.org/ng-alain/ng-alain-codelyzer) [![NPM version](https://img.shields.io/npm/v/ng-alain-codelyzer.svg?style=flat-square)](https://www.npmjs.com/package/ng-alain-codelyzer)
 
 A set of tslint rules for static code analysis of [ng-alain](https://ng-alain.com) projects.
 

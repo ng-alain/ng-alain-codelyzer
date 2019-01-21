@@ -1,6 +1,6 @@
 {
   "name": "ng-alain-codelyzer",
-  "version": "0.0.1-rc.1",
+  "version": "0.0.1",
   "description": "Linting for ng-alain",
   "main": "index.js",
   "author": "cipchk",
@@ -17,9 +17,9 @@
     "build": "rimraf dist && tsc && npm run format:check && npm run lint && npm t",
     "copy": "ncp package.json dist/package.json && ncp README.md dist/README.md && rimraf dist/test",
     "copy:debug": "ncp dist ../ng-alain-themes/node_modules/ng-alain-codelyzer",
-    "release": "rimraf dist && tsc -p tsconfig-release.json && npm run copy",
-    "release:debug": "rimraf dist && tsc -p tsconfig-release.json && npm run copy && npm run copy:debug",
-    "publish": "npm run release && cd dist && npm publish --access public",
+    "release": "rimraf dist && tsc -p ./tsconfig-release.json && npm run copy",
+    "release:debug": "rimraf dist && tsc -p ./tsconfig-release.json && npm run copy && npm run copy:debug",
+    "publish": "cd dist && npm publish --access public",
     "tsc": "tsc",
     "watch": "tsc --w"
   },
