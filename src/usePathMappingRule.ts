@@ -32,7 +32,6 @@ export class Rule extends Lint.Rules.AbstractRule {
     typescriptOnly: true,
     hasFix: true,
   };
-  static readonly FAILURE_STRING = 'Use the @Input property decorator instead of the inputs property';
   constructor(options: Lint.IOptions) {
     super(options);
 

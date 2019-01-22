@@ -47,7 +47,6 @@ describe('use-path-mapping', () => {
       import { Foo } from '@core/index.ts';
                            ~~~~~~~~~~~~~~
       `;
-      // import { Foo } from@core s';
       const failures = assertAnnotated({
         message: getFailureMessage('@core'),
         ruleName,
